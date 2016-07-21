@@ -1,0 +1,18 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*------------重置样式----------------*/
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, 
+fieldset, legend, img ,button,input,a{ margin:0; padding:0} 
+li{list-style: none}
+a{text-decoration: none}
+
+body{font-family:"微软雅黑";font-size:12px}
+a{color:#FFF}
+/*------------index页面banner----------------*/
+.banner img{float:left}
+/*------------index页面-年度精品热销----------------*/
+#high-quality{width:991px;height:1103px;margin:0 auto;clear:left}
+#high-quality h1{color:#FFF;width:991px;height:111px;line-height:111px;background:#b0813b;font-Size:71px;text-align:center}
+#high-quality .goods_list ul li{height:245px ;float:left;}
+#high-quality .goods_list ul li a img{border:0}

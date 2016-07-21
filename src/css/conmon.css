@@ -1,0 +1,57 @@
+@charset "utf-8";
+/* CSS Document */
+/*------------重置样式----------------*/
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, 
+fieldset, legend, img ,button,input{ margin:0; padding:0} 
+li{list-style: none}
+a{text-decoration: none}
+
+body{font-family:"微软雅黑";font-size:12px}
+a{color:#FFF}
+/*------------页面最顶部----------------*/
+
+#topest{width:100%;height: 90px;background:#ffd800}
+.topest_pic{margin:0 auto;width:990px;height:90px;}
+.topest_pic .search{position:absolute;left:517px;top:34px;border:2px solid #31313b}
+.topest_pic .search input{width:150px;height:33px;border:0}
+.topest_pic .search button{width:58px;height:34px;border:0;background:#31313b;}
+
+/*------------页面-导航栏----------------*/
+#nav{width:100%;height:35px;background:#33353d}
+#nav ul{margin-left:143px}
+#nav ul li{float:left;height:35px;font-size:14px}
+#nav ul li .index_a{display:block;width:117px; background-image:url(img/shouye.jpg);background-repeat:repeat;line-height:35px;height:35px;text-align:center;color:#e1e1e1}
+#nav ul li span{float:left;display:block;border-right:1px solid #ffe9a5;height:11px;margin-top:12px}
+#nav ul .navitem a {float:left;text-align:center;line-height:35px;height:35px;display:block;color:#ffe9a5}
+#nav ul li :hover{background-image:url(img/shouye.jpg);background-repeat:repeat}
+#nav ul .navitem_fir a{width:78px;}
+#nav ul .navitem_sed a{width:107px;}
+#nav ul .navitem_thi a{width:92px;}
+#nav ul .navitem_fou a{width:92px;text-align:center} 
+/*------------页面-导航-下拉菜单----------------*/
+#navMenu{width:100%;height:25px;background:#a7a7a6}
+
+#navMenu .navMenu_left{width:50%;height:25px;border-right:1px solid #777777;float:left}
+#navMenu .navMenu_right{width:49%;height:25px;border-left:1px solid #c9c9c8;float:left}
+/*------------页面-导航-下拉菜单-左边---------------*/
+#navMenu .menu{width:117px;height:25px;line-height:25px;color:#FFF;margin-left:143px;display:block;float:left;}
+#navMenu .menu:hover,#navMenu .idx:hover{background:#80807F;cursor:pointer}
+#navMenu .menu .stopall{margin-left:25px;float:left}
+#navMenu .menu div {width:14px;height:14px;border-radius:7px;float:left;background:#ffffff;margin-top:6px;margin-left:10px}
+#navMenu .menu div span,#navMenu .menu .change{margin-left:4px;color:#a7a7a6;font-size:15px;text-align:center;height:14px}
+.navMenu_left .menu .change{display:none}
+#navMenu .idx{width:62px;line-height:25px;text-align:center;height:25px;float:left;color:#ffffff}
+/*------------------页面-导航下拉菜单-右边------------------*/
+.navMenu_right .resou{display:block;width:50px;float:left;line-height:25px;text-align:center;margin-left:7px}
+.navMenu_right  li{display:block;float:left;width:40px;line-height:25px;text-align:center;}
+.navMenu_right  li:hover{text-decoration: underline;color:#FFF}
+.navMenu_right .inputbox{ width:160px;height:19px;float:left;border:1px solid #e5d3d3;overflow:hidden;margin-top:2px}
+.navMenu_right .inputbox img{float:left;border:none}
+.navMenu_right_fdj{ width:141px;float:left;height:20px;border:none}
+.navMenu_right .btn{width:32px;height:21px;float:left;display:block;border:1px solid #e5d3d3;margin-top:2px;margin-left:1px}
+/*------------------页面foot-----------------*/
+#foot{background:url(img/foot.png) repeat-y;height:110px;width:100%;float:left}
+#foot p{margin:0 auto;margin-top:35px;margin-bottom:18px;width:210px;}
+#foot p a{color:#333;}
+#foot p a:hover{text-decoration:underline}
+#foot div {width:630px;margin:0 auto;background:#FFF;text-indet:10px;}
