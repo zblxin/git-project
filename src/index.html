@@ -6,7 +6,9 @@
 	</head>
   <link rel="stylesheet" type="text/css" href="css/index.css">
   <link rel="stylesheet" type="text/css" href="css/conmon.css">
-		
+  <script src="sass/assets/jquery-1.12.0.js"></script>
+	<script src="sass/js/index.js"></script>
+    
 	<style>
 		
 		
@@ -35,14 +37,14 @@
        	</div>
         <!--------------页面-导航-下拉菜单---------------->
         <div id="navMenu">
-        <div class="navMenu_left">
-            <div class="menu">
-                <p class="stopall">本店所有</p>            
-                <div ><span>ˇ</span></div> 
-              <div class="change"><span>^</span></div>
-            </div>
-            <p class="idx">首页</p> 
-        </div>        
+            <div class="navMenu_left">
+                <div class="menu">
+                    <p class="stopall">本店所有</p>            
+                    <div class="default_btn"><span class="godown">ˇ</span><span class="goup">^</span></div> 
+                  	
+                </div>
+                <p class="idx">首页</p> 
+            </div>        
         <div class="navMenu_right">
        	  <a href="#" class="resou">热搜：</a>
         	<ul>
@@ -58,10 +60,12 @@
             <input type="text" name="search" class="navMenu_right_fdj">
        </div>
    	  	  <input class="btn" type="button" style="background:url(css/img/btn.jpg) no-repeat"/>
-          <ul>
-              <li >
+          
+        </div>
+        <ul class="down">
+              <li class="allbaby">
               <a href="#" >所有宝贝</a>
-              	<ul>
+              	<ul class="down_menu">
                 	 <li ><a href="#" >按综合</a></li>
              		 <li ><a href="#" >按销量</a></li>
              		 <li ><a href="#" >按价格</a></li>
@@ -82,8 +86,7 @@
               <li ><a href="#" >葡萄种类</a></li>
               <li ><a href="#" >旧世界产区</a></li>
               <li ><a href="#" >新世界产区</a></li>		
-          </ul>
-        </div>
+         </ul>
         <!--------------------banner图------------------------>
         
         	<div class="banner">
@@ -91,23 +94,25 @@
          </div>
          </div>
          <!--------------------年度精品热销---------------------->
-         <div id="high-quality">
-         	<h1>年度精品热销</h1>
-         	<div class="goods_list">
-            	<ul>
-                  <li ><a href="#" ><img src="img/hqfir.png"></a></li>
-                  <li ><a href="#" ><img src="img/hqsed.png"></a></li>
-                  <li ><a href="#" ><img src="img/hqthi.png"></a></li>
-                  <li ><a href="#" ><img src="img/hqfou.png"></a></li>
-                  <li ><a href="#" ><img src="img/hqfiv.png"></a></li>	
-                  <li ><a href="#" ><img src="img/hqsix.png"></a></li>
-                  <li ><a href="#" ><img src="img/hqsen.png"></a></li>
-                  <li ><a href="#" ><img src="img/hqeig.png"></a></li>
-                 
-                </ul>
-            
-            </div>
-         
+         <div id="box">
+             <div id="high-quality">
+                <h1>年度精品热销</h1>
+                <div class="goods_list">
+                    <ul>
+                      <li ><a href="#" ><img src="img/hqfir.png"></a></li>
+                      <li ><a href="#" ><img src="img/hqsed.png"></a></li>
+                      <li ><a href="#" ><img src="img/hqthi.png"></a></li>
+                      <li ><a href="#" ><img src="img/hqfou.png"></a></li>
+                      <li ><a href="#" ><img src="img/hqfiv.png"></a></li>	
+                      <li ><a href="#" ><img src="img/hqsix.png"></a></li>
+                      <li ><a href="#" ><img src="img/hqsen.png"></a></li>
+                      <li ><a href="#" ><img src="img/hqeig.png"></a></li>
+                     
+                    </ul>
+                
+                </div>
+             
+             </div>
          </div>
           <!--------------------大牌名酒----------------------> 
          
@@ -142,14 +147,229 @@
           </p> 
          <ul>
        	   <li class="introduce ">        	 
-               <a href="#" ><img src="img/preferential _pic1.png" width="230" height="230"></a>
+               <a href="#" class="change"><img src="img/preferential _pic1.png"></a>
                <div>
                    <a href="#">也买酒 正品拉菲红酒原瓶进口AOC 拉菲传奇干红葡萄酒</a>
-                   <p ><span class="mon">¥</span><a class="plice"> 299.00</a></p>
+                   <p ><span class="mon">¥</span><span class="plice"> 299.00</span></p>
                </div>
        	   </li>
+            <li class="introduce ">        	 
+               <a href="#" class="change"><img src="img/preferential _pic2.png"></a>
+               <div>
+                   <a href="#">也买酒 正品拉菲红酒原瓶进口AOC 拉菲传奇干红葡萄酒</a>
+                   <p ><span class="mon">¥</span><span class="plice"> 299.00</span></p>
+               </div>
+       	   </li>
+            <li class="introduce ">        	 
+               <a href="#" class="change"><img src="img/preferential _pic3.png"></a>
+               <div>
+                   <a href="#">也买酒 正品拉菲红酒原瓶进口AOC 拉菲传奇干红葡萄酒</a>
+                   <p ><span class="mon">¥</span><span class="plice"> 299.00</span><del >¥ 299.00</del></p>
+               </div>
+       	   </li>
+            <li class="introduce ">        	 
+               <a href="#" class="change"><img src="img/preferential _pic4.png"></a>
+               <div>
+                   <a href="#">也买酒 正品拉菲红酒原瓶进口AOC 拉菲传奇干红葡萄酒</a>
+                   <p ><span class="mon">¥</span><span class="plice"> 299.00</span></p>
+               </div>
+       	   </li>
+            <li class="introduce ">        	 
+               <a href="#" class="change"><img src="img/preferential _pic5.png"></a>
+               <div>
+                   <a href="#">也买酒 正品拉菲红酒原瓶进口AOC 拉菲传奇干红葡萄酒</a>
+                   <p ><span class="mon">¥</span><span class="plice"> 299.00</span></p>
+               </div>
+       	   </li>
+            <li class="introduce ">        	 
+               <a href="#" class="change"><img src="img/preferential _pic6.png"></a>
+               <div>
+                   <a href="#">也买酒 正品拉菲红酒原瓶进口AOC 拉菲传奇干红葡萄酒</a>
+                   <p ><span class="mon">¥</span><span class="plice"> 299.00</span></p>
+               </div>
+       	   </li>
+            <li class="introduce ">        	 
+               <a href="#" class="change"><img src="img/preferential _pic7.png"></a>
+               <div>
+                   <a href="#">也买酒 正品拉菲红酒原瓶进口AOC 拉菲传奇干红葡萄酒</a>
+                   <p ><span class="mon">¥</span><span class="plice"> 299.00</span></p>
+               </div>
+       	   </li>
+            <li class="introduce ">        	 
+               <a href="#" class="change"><img src="img/preferential _pic8.png"></a>
+               <div>
+                   <a href="#">也买酒 正品拉菲红酒原瓶进口AOC 拉菲传奇干红葡萄酒</a>
+                   <p ><span class="mon">¥</span><span class="plice"> 299.00</span></p>
+               </div>
+       	   </li>
+            <li class="introduce ">        	 
+               <a href="#" class="change"><img src="img/preferential _pic9.png"></a>
+               <div>
+                   <a href="#">也买酒 正品拉菲红酒原瓶进口AOC 拉菲传奇干红葡萄酒</a>
+                   <p ><span class="mon">¥</span><span class="plice"> 299.00</span><del >¥ 299.00</del></p>
+               </div>
+       	   </li>
+            <li class="introduce ">        	 
+               <a href="#" class="change"><img src="img/preferential _pic10.png"></a>
+               <div>
+                   <a href="#">也买酒 正品拉菲红酒原瓶进口AOC 拉菲传奇干红葡萄酒</a>
+                   <p ><span class="mon">¥</span><span class="plice"> 299.00</span><del >¥ 299.00</del></p>
+               </div>
+       	   </li>
+            <li class="introduce ">        	 
+               <a href="#" class="change"><img src="img/preferential _pic11.png"></a>
+               <div>
+                   <a href="#">也买酒 正品拉菲红酒原瓶进口AOC 拉菲传奇干红葡萄酒</a>
+                   <p ><span class="mon">¥</span><span class="plice"> 299.00</span>
+                   <del >¥ 299.00</del></p>	
+               </div>
+       	   </li> 
+            <li class="introduce ">        	 
+               <a href="#" class="change"><img src="img/preferential _pic12.png"></a>
+               <div>
+                   <a href="#">也买酒 正品拉菲红酒原瓶进口AOC 拉菲传奇干红葡萄酒</a>
+                   <p ><span class="mon">¥</span><span class="plice"> 299.00</span>
+                   <del >¥ 299.00</del></p>	
+               </div>
+       	   </li> 
+            <li class="introduce ">        	 
+               <a href="#" class="change"><img src="img/preferential _pic13.png"></a>
+               <div>
+                   <a href="#">也买酒 正品拉菲红酒原瓶进口AOC 拉菲传奇干红葡萄酒</a>
+                   <p ><span class="mon">¥</span><span class="plice"> 299.00</span>
+                   <del >¥ 299.00</del></p>	
+               </div>
+       	   </li> 
+            <li class="introduce ">        	 
+               <a href="#" class="change"><img src="img/preferential _pic14.png"></a>
+               <div>
+                   <a href="#">也买酒 正品拉菲红酒原瓶进口AOC 拉菲传奇干红葡萄酒</a>
+                   <p ><span class="mon">¥</span><span class="plice"> 299.00</span>
+                   <del >¥ 299.00</del></p>	
+               </div>
+       	   </li> 
+            
          </ul>
-      </div>   
+      </div>  
+         <!-------------------精品甜酒----------------------->
+    <div id="preferential">
+      <p class="all">
+          		<span >精选甜酒</span>
+           		<a href="#">更多</a>
+      </p> 
+      <ul>
+   	    <li class="introduce ">        	 
+            <a href="#" class="change"><img src="img/select_pic1.png"></a>
+            <div>
+                <a href="#">也买酒 德国进口红酒 施密特世家冰酒 葡萄酒500ml</a>
+                <p ><span class="mon">¥</span><span class="plice"> 299.00</span></p>
+            </div>
+        </li>
+         <li class="introduce ">        	 
+            <a href="#" class="change"><img src="img/select_pic2.png"></a>
+            <div>
+                <a href="#">也买酒 德国进口红酒 施密特世家冰酒 葡萄酒500ml</a>
+                <p ><span class="mon">¥</span><span class="plice"> 299.00</span></p>
+            </div>
+   	    </li>
+         <li class="introduce ">        	 
+            <a href="#" class="change"><img src="img/select_pic3.png"></a>
+            <div>
+                 <a href="#">也买酒 德国进口红酒 施密特世家冰酒 葡萄酒500ml</a>
+                <p ><span class="mon">¥</span><span class="plice"> 299.00</span><del >¥ 299.00</del></p>
+            </div>
+   	    </li>
+         <li class="introduce ">        	 
+            <a href="#" class="change"><img src="img/select_pic4.png"></a>
+            <div>
+                 <a href="#">也买酒 德国进口红酒 施密特世家冰酒 葡萄酒500ml</a>
+                <p ><span class="mon">¥</span><span class="plice"> 299.00</span></p>
+            </div>
+   	    </li>
+         <li class="introduce ">        	 
+            <a href="#" class="change"><img src="img/select_pic5.png"></a>
+            <div>
+                 <a href="#">也买酒 德国进口红酒 施密特世家冰酒 葡萄酒500ml</a>
+                <p ><span class="mon">¥</span><span class="plice"> 299.00</span></p>
+            </div>
+   	    </li>
+         <li class="introduce ">        	 
+            <a href="#" class="change"><img src="img/select_pic6.png"></a>
+            <div>
+                 <a href="#">也买酒 德国进口红酒 施密特世家冰酒 葡萄酒500ml</a>
+                <p ><span class="mon">¥</span><span class="plice"> 299.00</span></p>
+            </div>
+   	    </li>
+         <li class="introduce ">        	 
+            <a href="#" class="change"><img src="img/select_pic7.png"></a>
+            <div>
+                 <a href="#">也买酒 德国进口红酒 施密特世家冰酒 葡萄酒500ml</a>
+                <p ><span class="mon">¥</span><span class="plice"> 299.00</span></p>
+            </div>
+   	    </li>
+         <li class="introduce ">        	 
+            <a href="#" class="change"><img src="img/select_pic8.png"></a>
+            <div>
+                 <a href="#">也买酒 德国进口红酒 施密特世家冰酒 葡萄酒500ml</a>
+                <p ><span class="mon">¥</span><span class="plice"> 299.00</span></p>
+            </div>
+   	    </li>
+         <li class="introduce ">        	 
+            <a href="#" class="change"><img src="img/select_pic9.png"></a>
+            <div>
+                <a href="#">也买酒 德国进口红酒 施密特世家冰酒 葡萄酒500ml</a>
+                <p ><span class="mon">¥</span><span class="plice"> 299.00</span><del >¥ 299.00</del></p>
+            </div>
+   	    </li>
+         <li class="introduce ">        	 
+            <a href="#" class="change"><img src="img/select_pic10.png"></a>
+            <div>
+                 <a href="#">也买酒 德国进口红酒 施密特世家冰酒 葡萄酒500ml</a>
+                <p ><span class="mon">¥</span><span class="plice"> 299.00</span><del >¥ 299.00</del></p>
+            </div>
+   	    </li>
+         <li class="introduce ">        	 
+            <a href="#" class="change"><img src="img/select_pic11.png"></a>
+            <div>
+                 <a href="#">也买酒 德国进口红酒 施密特世家冰酒 葡萄酒500ml</a>
+                <p ><span class="mon">¥</span><span class="plice"> 299.00</span>
+                <del >¥ 299.00</del></p>	
+            </div>
+   	    </li> 
+         <li class="introduce ">        	 
+            <a href="#" class="change"><img src="img/select_pic12.png"></a>
+            <div>
+                 <a href="#">也买酒 德国进口红酒 施密特世家冰酒 葡萄酒500ml</a>
+                <p ><span class="mon">¥</span><span class="plice"> 299.00</span>
+                <del >¥ 299.00</del></p>	
+            </div>
+   	    </li> 
+         <li class="introduce ">        	 
+            <a href="#" class="change"><img src="img/select_pic13.png"></a>
+            <div>
+                 <a href="#">也买酒 德国进口红酒 施密特世家冰酒 葡萄酒500ml</a>
+                <p ><span class="mon">¥</span><span class="plice"> 299.00</span>
+                <del >¥ 299.00</del></p>	
+            </div>
+   	    </li> 
+         <li class="introduce ">        	 
+            <a href="#" class="change"><img src="img/select_pic14.png"></a>
+            <div>
+                 <a href="#">也买酒 德国进口红酒 施密特世家冰酒 葡萄酒500ml</a>
+                <p ><span class="mon">¥</span><span class="plice"> 299.00</span>
+                <del >¥ 299.00</del></p>	
+            </div>
+   	    </li> 
+        <li class="introduce ">        	 
+            <a href="#" class="change"><img src="img/select_pic14.png"></a>
+            <div>
+                 <a href="#">也买酒 德国进口红酒 施密特世家冰酒 葡萄酒500ml</a>
+                <p ><span class="mon">¥</span><span class="plice"> 299.00</span>
+                <del >¥ 299.00</del></p>	
+            </div>
+   	    </li>     
+      </ul>
+      </div> 
        <!--------------------foot---------------------->
        <div id="foot">
 			  <p><a href="#">也买酒官网商城</a>-<a href="#">网站地图</a>-<a href="#">站长统计</a></p> 
