@@ -6,7 +6,7 @@ html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form,
 fieldset, legend, img ,button,input,a{ margin:0; padding:0} 
 li{list-style: none}
 a{text-decoration: none}
-
+img{border:0}
 body{font-family:"微软雅黑";font-size:12px}
 a{color:#FFF}
 /*------------index页面banner----------------*/
@@ -16,3 +16,16 @@ a{color:#FFF}
 #high-quality h1{color:#FFF;width:991px;height:111px;line-height:111px;background:#b0813b;font-Size:71px;text-align:center}
 #high-quality .goods_list ul li{height:245px ;float:left;}
 #high-quality .goods_list ul li a img{border:0}
+/*------------index页面-大牌名酒----------------*/
+
+.title,#wine_list{float:left;}
+#wine_list{width:100%;height:1540px;background:#fb002b;overflow:hidden}
+.wine_list{width:990px;margin:0 auto;background:#ffffff;height:1540px}
+.wine_list ul li {float:left}
+/*------------index页面-大牌名酒-整箱特惠---------------*/
+#preferential{width:100%;height:1387px;background:#fb002b;clear:left}
+#preferential .all{width:991px;height:30px;margin:0 auto;float:left;margin-top:23px;margin-left:137px;background:#eee0dd;border-top:2px solid #ae9893}
+#preferential .all span,#preferential .all a{float:left;display:block;line-height:30px;text-align:center;margin-left:10px;color:#8c4839}
+#preferential .all a{float:right;margin-right:10px;color:#666666}
+#preferential .introduce{width:230px;height:316px;float:left;}
+#preferential .introduce div{height:83px;background:#ffffff}

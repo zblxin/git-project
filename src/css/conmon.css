@@ -51,7 +51,7 @@ a{color:#FFF}
 .navMenu_right .btn{width:32px;height:21px;float:left;display:block;border:1px solid #e5d3d3;margin-top:2px;margin-left:1px}
 /*------------------页面foot-----------------*/
 #foot{background:url(img/foot.png) repeat-y;height:110px;width:100%;float:left}
-#foot p{margin:0 auto;margin-top:35px;margin-bottom:18px;width:210px;}
+#foot p{margin:0 auto;margin-top:30px;margin-bottom:14px;width:210px;}
 #foot p a{color:#333;}
 #foot p a:hover{text-decoration:underline}
-#foot div {width:630px;margin:0 auto;background:#FFF;text-indet:10px;}
+#foot div {width:630px;margin:0 auto;background:#FFF;text-indet:10px;height:40px}
