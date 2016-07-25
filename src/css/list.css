@@ -48,7 +48,7 @@ body {
 
 .list_con_left{float:left;width:195px;border:1px solid #e6e1db;margin:0 8px 0 29px}
 .xiala_top1 ul li{width:195px;height:41px;line-height: 41px;background:#fbfaf9;border:1px solid #e6e1db}
-.hide{display:none}
+.hide,.hide1{display:none}
 .xiala_top1 ul li a{margin-top:23px;color:#333333;height:30px;padding-left: 30px;}
 
 /*-------------------cen--------------------*/
