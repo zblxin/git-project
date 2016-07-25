@@ -12,20 +12,22 @@ a{color:#FFF}
 /*------------index页面banner----------------*/
 .banner img{float:left}
 /*------------index页面-年度精品热销----------------*/
-#box{background:#f6f6f6;width:100%;height:1103px;float:left}
+#box{background:#f6f6f6;width:1264px;height:1103px;float:left}
 #high-quality{width:991px;height:1103px;margin:0 auto;clear:left;}
+
 #high-quality h1{color:#FFF;width:991px;height:111px;line-height:111px;background:#b0813b;font-Size:71px;text-align:center}
 #high-quality .goods_list ul li{height:245px ;float:left;}
 #high-quality .goods_list ul li a img{border:0}
 /*------------index页面-大牌名酒----------------*/
 
 .title,#wine_list{float:left;}
-#wine_list{width:100%;height:1540px;background:#fb002b;overflow:hidden}
+#wine_list{width:1263px;height:1540px;background:#fb002b;overflow:hidden}
 .wine_list{width:990px;margin:0 auto;background:#ffffff;height:1540px}
 .wine_list ul li {float:left}
 /*------------index页面-大牌名酒-整箱特惠---------------*/
-#preferential{width:100%;height:1387px;background:#fb002b;clear:left}
-#preferential .all{width:991px;height:30px;margin:0 auto;float:left;margin-top:23px;margin-left:137px;background:#eee0dd;border-top:2px solid #ae9893}
+#preferential{width:1264px;height:1387px;background:#fb002b;clear:left}
+#preferential .boxAll{width:1264px;height:53px;position:relative;}
+#preferential .all{width:991px;height:30px;background:#eee0dd;border-top:2px solid #ae9893;position:absolute;left:50%;top:50%;margin-left:-495px;margin-top:-15px}
 #preferential .all span,#preferential .all a{float:left;display:block;line-height:30px;text-align:center;margin-left:10px;color:#8c4839}
 #preferential .all a{float:right;margin-right:10px;color:#666666}
 #preferential .all a:hover{text-decoration:underline}
